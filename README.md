@@ -23,7 +23,7 @@ After that , a PostgreSQL database will be initialized.
 
 #### Register an user
 
-```http
+```
   POST /api/v1/auth/register
 ```
 
@@ -38,7 +38,7 @@ After that , a PostgreSQL database will be initialized.
 
 #### Authenticate the user
 
-```http
+```
   POST /api/v1/auth/authenticate
 ```
 
@@ -51,7 +51,7 @@ After that , a PostgreSQL database will be initialized.
 
 #### Example of endpoint secured
 
-```http
+```
   GET /api/v1/demo
 ```
 ##### This endpoint just work if a token is passed.
